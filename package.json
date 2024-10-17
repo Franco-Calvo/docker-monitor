@@ -1,0 +1,27 @@
+{
+  "name": "docker-monitor",
+  "version": "1.0.0",
+  "description": "Aplicación web para monitorear y controlar contenedores Docker.",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "dockerode": "^3.3.1",
+    "express": "^4.18.2",
+    "strip-ansi": "^7.1.0",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.31",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

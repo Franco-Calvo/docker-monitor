@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+}
+
+.status-up::before {
+  content: '●';
+  color: green;
+  margin-right: 5px;
+}
+
+.status-down::before {
+  content: '●';
+  color: red;
+  margin-right: 5px;
+}
+
+.logs {
+  white-space: pre-wrap;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  height: 400px;
+  overflow-y: scroll;
+}
