@@ -16,11 +16,11 @@ Docker Monitor es una aplicación web que permite monitorear y controlar tus con
 - **TypeScript** (solo para desarrollo)
 - **Git** (para clonar el repositorio)
 
-## Pendientes 
+## Pendientes
 
 - **Mejorar la seguridad de autentificación**
 - **Acceso mediante HTTPS y no HTTP**
-- **Mejorar el diseño y adaptarlo** 
+- **Mejorar el diseño y adaptarlo**
 
 ## Instalación
 
@@ -42,7 +42,7 @@ Docker Monitor es una aplicación web que permite monitorear y controlar tus con
 3. **Configura las credenciales**
 
    ```bash
-   const auth = { username: 'admin', password: 'admin' };
+   const auth = { username: 'user', password: 'password' };
    ```
 
 4. **Compila e inicializa**
@@ -50,9 +50,6 @@ Docker Monitor es una aplicación web que permite monitorear y controlar tus con
    ```bash
     npm run build && npm start
    ```
+
 5. **Accede a la app mediante el navegador**
-   http://<IP/DOMINIODELVPS>:4200 
-
-
-
-
+   http://<IP/DOMINIODELVPS>:4200
