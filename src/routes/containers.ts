@@ -1,9 +1,8 @@
-import { Router, Request, Response } from 'express';
 import Docker from 'dockerode';
-import { getContainerInfo } from '../utils/docker.js';
-import { PassThrough } from 'stream';
+import { Request, Response, Router } from 'express';
 import stripAnsi from 'strip-ansi';
 import si from 'systeminformation';
+import { getContainerInfo } from '../utils/docker.js';
 
 const router = Router();
 const docker = new Docker({ socketPath: '/var/run/docker.sock' });
